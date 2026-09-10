@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "description": "Sit/stand desk control for the IKEA IDASEN: exact heights, presets, an hourly stand schedule, and a CLI.",
+    "homepage": "https://github.com/eaglespirittech/perch",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/eaglespirittech/perch/releases/download/v0.2.0/Perch-0.2.0-win-x64.exe#/Perch.exe",
+                "https://github.com/eaglespirittech/perch/releases/download/v0.2.0/perch-cli-0.2.0-win-x64.exe#/perch-cli.exe"
+            ],
+            "hash": [
+                "e4d549f559cb00ae523327f095aefd00274002437918c525409349b21ec336c6",
+                "708e233f61ee1a7cef6bd356c245eb470664df133853fd79eecff270173187cd"
+            ]
+        }
+    },
+    "bin": "perch-cli.exe",
+    "shortcuts": [
+        [
+            "Perch.exe",
+            "Perch"
+        ]
+    ],
+    "notes": [
+        "Pair the desk in Windows Bluetooth settings first, then start Perch from the Start menu.",
+        "Settings live in %APPDATA%\\Perch and survive updates and uninstalls.",
+        "The perch-cli command is on your path: run 'perch-cli help'."
+    ],
+    "checkver": {
+        "github": "https://github.com/eaglespirittech/perch"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/eaglespirittech/perch/releases/download/v$version/Perch-$version-win-x64.exe#/Perch.exe",
+                    "https://github.com/eaglespirittech/perch/releases/download/v$version/perch-cli-$version-win-x64.exe#/perch-cli.exe"
+                ]
+            }
+        }
+    }
+}
