@@ -1,17 +1,17 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "Sit/stand desk control for the IKEA IDASEN: exact heights, presets, an hourly stand schedule, and a CLI.",
     "homepage": "https://github.com/eaglespirittech/perch",
     "license": "MIT",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/eaglespirittech/perch/releases/download/v0.3.0/Perch-0.3.0-win-x64.exe#/Perch.exe",
-                "https://github.com/eaglespirittech/perch/releases/download/v0.3.0/perch-cli-0.3.0-win-x64.exe#/perch-cli.exe"
+                "https://github.com/eaglespirittech/perch/releases/download/v0.4.0/Perch-0.4.0-win-x64.exe#/Perch.exe",
+                "https://github.com/eaglespirittech/perch/releases/download/v0.4.0/perch-cli-0.4.0-win-x64.exe#/perch-cli.exe"
             ],
             "hash": [
-                "4e3e5ea56f6018424233b059b428e501de0bd72a48b23fb441a63d3ed0713267",
-                "e3485cd15171f67dc19f2b70ecc2ac97bda1a754afb2784b886c2069196203f7"
+                "719ddbd01d3554c66f684d9b31dcfdf1c827ea8583c850a847fdc27b9b5b35f4",
+                "85bc5ab67b56dd9aa29ce25a10a7f3e4d0b9fd78a50fee22d571ba85ab6e1deb"
             ]
         }
     },
